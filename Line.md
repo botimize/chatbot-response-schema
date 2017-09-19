@@ -9,7 +9,7 @@ For the incoming messages, Line provides the format with three different sources
 Three Sources: user, room, group
 
 #### User Source
-```
+```json
 {  
    "events":[  
       {  
@@ -31,7 +31,7 @@ Three Sources: user, room, group
 ```
 
 #### Room Source
-```
+```json
 {  
    "events":[  
       {  
@@ -54,7 +54,7 @@ Three Sources: user, room, group
 ```
 
 #### Group Source
-```
+```json
 {  
    "events":[  
       {  
@@ -86,7 +86,7 @@ Seven Event Types: Message , Follow , Unfollow, Join, Leave, Postback, Beacon
 Message event type is most common event type people deal with. It can further divided into 7 types.Seven Types of Message Event Type: Text, Image, Audio, File, Location, Sticker
 
 ##### Text Message
-```
+```json
 {  
    "events":[  
       {  
@@ -108,7 +108,7 @@ Message event type is most common event type people deal with. It can further di
 ```
 
 ##### Image Message
-```
+```json
 {  
    "events":[  
       {  
@@ -130,7 +130,7 @@ Message event type is most common event type people deal with. It can further di
 ```
 
 ##### Video Message
-```
+```json
 {  
    "events":[  
       {  
@@ -152,7 +152,7 @@ Message event type is most common event type people deal with. It can further di
 ```
 
 ##### Audio Message
-```
+```json
 {  
    "events":[  
       {  
@@ -173,7 +173,7 @@ Message event type is most common event type people deal with. It can further di
 ```
 
 ##### File Message
-```
+```json
 {  
    "events":[  
       {  
@@ -196,7 +196,7 @@ Message event type is most common event type people deal with. It can further di
 ```
 
 ##### Location Message
-```
+```json
 {  
    "events":[  
       {  
@@ -221,7 +221,7 @@ Message event type is most common event type people deal with. It can further di
 ```
 
 ##### Sticker Message
-```
+```json
 {  
    "events":[  
       {  
@@ -244,7 +244,7 @@ Message event type is most common event type people deal with. It can further di
 ```
 
 #### Follow Event
-```
+```json
 {  
    "events":[  
       {  
@@ -261,7 +261,7 @@ Message event type is most common event type people deal with. It can further di
 ```
 
 #### Unfollow Event
-```
+```json
 {  
    "events":[  
       {  
@@ -277,7 +277,7 @@ Message event type is most common event type people deal with. It can further di
 ```
 
 #### Join Event
-```
+```json
 {  
    "events":[  
       {  
@@ -294,7 +294,7 @@ Message event type is most common event type people deal with. It can further di
 ```
 
 #### Leave Event
-```
+```json
 {  
    "events":[  
       {  
@@ -310,7 +310,7 @@ Message event type is most common event type people deal with. It can further di
 ```
 
 #### Postback Event
-```
+```json
 {  
    "events":[  
       {  
@@ -330,7 +330,7 @@ Message event type is most common event type people deal with. It can further di
 ```
 
 #### Beacon Event
-```
+```json
 {  
    "events":[  
       {  
