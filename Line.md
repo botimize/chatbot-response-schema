@@ -81,11 +81,24 @@ For the incoming messages, Line provides the format with three different sources
 
 ### Event Type
 
-Seven Event Types: Message , Follow , Unfollow, Join, Leave, Postback, Beacon
+- [Message](#message-event)
+- [Follow](#follow-event)
+- [Unfollow](#unfollow-event)
+- [Join](#join-event)
+- [Leave](#leave-event)
+- [Postback](#postback-event)
+- [Beacon](#beacon-event)
 
 #### Message Event
 
-Message event type is most common event type people deal with. It can further divided into 7 types.Seven Types of Message Event Type: Text, Image, Audio, File, Location, Sticker
+Message event type is most common event type people deal with. It can further divided into 7 types.
+
+- [Text](#text-message)
+- [Image](#image-message)
+- [Audio](#audio-message)
+- [File](#file-message)
+- [Location](#location-message)
+- [Sticker](#sticker-message)
 
 ##### Text Message
 ```json
