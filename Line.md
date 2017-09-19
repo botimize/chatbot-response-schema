@@ -2,7 +2,26 @@
 
 ## Incoming
 
-For the incoming messages, Line provides the format with three different sources and seven differnt event types.
+For the incoming messages, Line provides the format with 3 different sources and 7 differnt event types.
+
+- [Source](#source)
+    - [user](#user-source)
+    - [room](#room-source)
+    - [group](#group-source)
+- [Event Type](#event-type)
+    - [Message](#message-event)
+        - [Text](#text-message)
+        - [Image](#image-message)
+        - [Audio](#audio-message)
+        - [File](#file-message)
+        - [Location](#location-message)
+        - [Sticker](#sticker-message)
+    - [Follow](#follow-event)
+    - [Unfollow](#unfollow-event)
+    - [Join](#join-event)
+    - [Leave](#leave-event)
+    - [Postback](#postback-event)
+    - [Beacon](#beacon-event)
 
 ### Source
 
