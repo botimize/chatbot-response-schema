@@ -6,7 +6,9 @@ For the incoming messages, Line provides the format with three different sources
 
 ### Source
 
-Three Sources: user, room, group
+- [user](#user-source)
+- [room](#room-source)
+- [group](#group-source)
 
 #### User Source
 ```json
